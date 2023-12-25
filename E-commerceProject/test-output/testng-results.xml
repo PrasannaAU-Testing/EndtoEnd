@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-25T12:42:52 IST" name="Default suite" finished-at="2023-12-25T12:51:14 IST" duration-ms="501954">
+    <groups>
+    </groups>
+    <test started-at="2023-12-25T12:42:52 IST" name="Default test" finished-at="2023-12-25T12:51:14 IST" duration-ms="501954">
+      <class name="negativeMethod.EndToEnd">
+        <test-method is-config="true" signature="setup()[pri:0, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:42:52 IST" name="setup" finished-at="2023-12-25T12:43:18 IST" duration-ms="26096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emptyField()[pri:1, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:43:18 IST" name="emptyField" finished-at="2023-12-25T12:44:24 IST" duration-ms="65568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyField -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:44:24 IST" name="teardown" finished-at="2023-12-25T12:44:24 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:44:24 IST" name="setup" finished-at="2023-12-25T12:44:48 IST" duration-ms="24328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidData()[pri:2, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:44:48 IST" name="invalidData" finished-at="2023-12-25T12:45:44 IST" duration-ms="55916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidData -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:45:44 IST" name="teardown" finished-at="2023-12-25T12:45:45 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:45:45 IST" name="setup" finished-at="2023-12-25T12:46:09 IST" duration-ms="24256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="alerts()[pri:3, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:46:09 IST" name="alerts" finished-at="2023-12-25T12:46:30 IST" duration-ms="20987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alerts -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:46:30 IST" name="teardown" finished-at="2023-12-25T12:46:30 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:46:30 IST" name="setup" finished-at="2023-12-25T12:46:57 IST" duration-ms="26458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="emptyLogIn()[pri:4, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:46:57 IST" name="emptyLogIn" finished-at="2023-12-25T12:47:47 IST" duration-ms="50539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyLogIn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:47:47 IST" name="teardown" finished-at="2023-12-25T12:47:47 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:47:47 IST" name="setup" finished-at="2023-12-25T12:48:15 IST" duration-ms="27675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidUser()[pri:5, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:48:15 IST" name="invalidUser" finished-at="2023-12-25T12:49:01 IST" duration-ms="46132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUser -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:49:01 IST" name="teardown" finished-at="2023-12-25T12:49:02 IST" duration-ms="355" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:49:02 IST" name="setup" finished-at="2023-12-25T12:49:27 IST" duration-ms="25583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidPass()[pri:6, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:49:27 IST" name="invalidPass" finished-at="2023-12-25T12:50:08 IST" duration-ms="40776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPass -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:50:08 IST" name="teardown" finished-at="2023-12-25T12:50:08 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:50:08 IST" name="setup" finished-at="2023-12-25T12:50:33 IST" duration-ms="24402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Payment()[pri:7, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:50:33 IST" name="Payment" finished-at="2023-12-25T12:51:14 IST" duration-ms="40868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:negativeMethod.EndToEnd@2e8c1c9b]" started-at="2023-12-25T12:51:14 IST" name="teardown" finished-at="2023-12-25T12:51:14 IST" duration-ms="372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- negativeMethod.EndToEnd -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

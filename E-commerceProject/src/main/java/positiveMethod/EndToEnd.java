@@ -191,20 +191,17 @@ public class EndToEnd {
 		String userOccupation = "Engineer"; // Enter Occupation
 		WebElement dropdownElement = driver.findElement(occupationField);
 		Select dropdown = new Select(dropdownElement);
-		List<WebElement> options = dropdown.getOptions();// Select By Visible Text
+		//List<WebElement> options = dropdown.getOptions();// Select By Visible Text
 		boolean isOccupationFound = false;
-		for (WebElement option : options) {
+		for (WebElement option : dropdown.getOptions()) {
 			if (option.getText().equals(userOccupation)) {
 				dropdown.selectByVisibleText(userOccupation);
 				isOccupationFound = true;
 				break;
 			}
 		}
-		if (isOccupationFound) {
-			System.out.println("Occupation found and selected: " + userOccupation);
-		} else {
-			System.out.println("Occupation not found: " + userOccupation);
-		}
+		assert isOccupationFound : "Occupation not found: " + userOccupation;
+		print("Occupation found and selected: " + userOccupation);	
 		return dropdownElement;
 
 	}
